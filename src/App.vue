@@ -114,7 +114,7 @@
                     <div class="h5">
                       <a v-if="experience.url != null" class="experience" v-bind:href="experience.url"
                          target="_blank">{{ experience.title }}</a>
-                      <a v-else>{{ experience.title }}</a>
+                      <span v-else>{{ experience.title }}</span>
                     </div>
                   </div>
                   <div class="timeline-body px-4 pb-4">
@@ -133,7 +133,7 @@
                   <div class="timeline-head px-4 pt-3">
                     <div class="h5"><a v-if="education.url != null" class="experience" v-bind:href="education.url"
                                        target="_blank">{{ education.title }}</a>
-                      <a v-else>{{ education.title }}</a>
+                      <span v-else>{{ education.title }}</span>
                       <span v-if="education.location != null"
                             class="text-muted h6"> from {{
                           education.location
