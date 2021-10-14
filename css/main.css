@@ -115,7 +115,7 @@ a.experience {
 }
 
 .pict {
-  content: url('../images/avatar.png');
+  content: url('../images/avatar.webp');
 }
 
 @media (min-width: 48em) {

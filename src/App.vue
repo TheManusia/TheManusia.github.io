@@ -24,10 +24,10 @@
         <div class="resume-container">
           <div class="shadow-1-strong bg-white my-5" id="intro">
             <div class="bg-info text-white">
-              <div class="cover bg-image"><img src="./../images/header-background.jpg" alt="background"/>
+              <div class="cover bg-image"><img src="./../images/header-background.webp" alt="background"/>
                 <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
                   <div class="text-center p-5">
-                    <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="./../images/avatar.png"
+                    <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="./../images/avatar.webp"
                                                  width="160" height="160" alt="avatar"/>
                     </div>
                     <div class="header-bio mt-3">
