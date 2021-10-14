@@ -39,7 +39,7 @@
                         <nav role="navigation">
                           <ul class="nav justify-content-center">
                             <li class="nav-item" v-for="socmed in socmeds" :key="socmed.title">
-                              <a class="nav-link" v-bind:href="socmed.url" target="_blank" v-bind:title="socmed.title">
+                              <a class="nav-link" v-bind:href="socmed.url" rel="noopener" target="_blank" v-bind:title="socmed.title">
                                 <i v-bind:class="'fab '+ socmed.icon"></i>
                                 <span class="menu-title sr-only">{{ socmed.title }}</span>
                               </a>
